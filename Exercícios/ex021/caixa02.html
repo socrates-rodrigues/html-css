@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+        h1 {
+            background-color: rgb(59, 59, 155);
+            color: white;
+            padding: 20px 0px 20px 0px;
+            border: 10px solid black;
+            text-align: center;
+        }
+        header {
+            height: 50px;
+            background-color: grey;
+        }
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        nav > a {
+            border: 2px solid black;
+            width: 20vw;
+            margin-top: 15px;
+            background-color: yellow;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            color: red;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: rgb(131, 131, 0);
+        }
+        main {
+            height: 300px;
+        }
+        #texto {
+            width: 500px;
+            text-align: justify;
+        }
+        section#texto > article {
+            text-align: right;
+            text-decoration: underline;
+        }
+        footer {
+            background-color: rgb(98, 98, 98);
+            font-size: 3em;
+            color: white;
+            border-top: 5px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu site</h1>
+    <header>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="titulo"><h2>Notícias sobre o Brasil</h2></section>
+        <section id="texto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nobis, commodi hic quas eligendi voluptates cupiditate molestias quasi sunt minus aliquam est optio, officiis obcaecati explicabo, nemo recusandae perspiciatis saepe.</p>
+            <article>Escrito por Aracy Balabanian</article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Catchau</p>
+    </footer>
+</body>
+</html>
