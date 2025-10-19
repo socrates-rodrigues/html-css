@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+}
+header {
+    height: 30vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h2 {
+    padding-top: 50px;
+    font-size: 5em;
+}
+header h3 {
+    font-weight: lighter;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+#seção1 {
+    height: 70vh;
+}
+article.formatação1 {
+    width: 40vw;
+    padding-left: 5%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+article.formatação1 p {
+    font-size: 2.2em;
+    line-height: 1.5em;
+}
+#seção2 {
+    height: 70vh;
+    background-color: aqua;
+}
+article.formatação2 {
+    width: 40vw;
+    padding-left: 5%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+article.formatação2 p {
+    font-size: 2.2em;
+    line-height: 1.5em;
+    color: white;
+}
+#seção4 {
+    background-color: blue;
+}
+footer {
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
