@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+header{
+    flex-flow: column nowrap;
+}
+h1 {
+    flex-basis: 50px;
+}
+a {
+    width: 100vw;
+    padding: 7px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    border-top: 1px solid white;
+}
+nav {
+    flex-flow: column nowrap;
+    display: none;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+span#burguer {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    margin-bottom: -20px;
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
+    transition: background-color .3s;
+}
